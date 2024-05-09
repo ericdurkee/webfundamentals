@@ -1,0 +1,56 @@
+@import url(https://fonts.google.com/specimen/Freeman?preview.text=Hello);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #fb8500;
+    --secondary-color: #023047;
+    --accent1-color: #ffb703;
+    --accent2-color: #8ecae6;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Freeman', serif;
+
+    --nav-background-color: #XXXXX;
+    --nav-link-color: #XXXXX;
+    --nav-hovor-background-color: #XXXXX;
+    --nav-hovor-background-color: #XXXXX;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--accent2-color);
+}
+
+nav a:hovor {
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+}
