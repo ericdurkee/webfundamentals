@@ -31,9 +31,9 @@ main {
         }
     /* Class Selectors*/
     .box{
-        margin: 1rem;
+        margin: 100rem;
         border: 1px solid rgba(0,0,0,.1);
-        padding: 1rem;
+        padding: 100rem;
         background-color: #ddd;
         color: #000;
     }
