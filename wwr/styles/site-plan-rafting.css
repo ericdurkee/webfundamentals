@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Freeman?preview.text=Hello);
+@import url(https://fonts.google.com/specimen/Roboto);
 
 body {
     font-family: var(--paragraph-font);
@@ -50,7 +50,7 @@ nav a:link, nav a:visited {
     color: var(--accent2-color);
 }
 
-nav a:hovor {
+nav a:hover {
     color: var(--primary-color);
     background-color: var(--primary-color);
 }
