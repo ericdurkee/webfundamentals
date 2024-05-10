@@ -14,3 +14,12 @@
     --nav-hovor-background-color: #XXXXX;
     --nav-hovor-background-color: #XXXXX;
 }
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    padding: 25px;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
