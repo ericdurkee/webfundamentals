@@ -23,3 +23,8 @@ p {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
