@@ -1,55 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
-    max-width: 400px; /* Reduce the max-width */
+    max-width: 600px;
     margin: 20px auto;
-    padding: 15px; /* Reduce the padding */
-    background-color: #f4f4f4; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative; /* Ensure relative positioning */
+    position: relative;
 }
 
-.container h1, .contact-heading {
-    font-size: 1.5em; /* Reduce font size */
-    margin: 15px 0; /* Adjust margin */
-    text-align: center; /* Center the heading */
-    position: relative; /* Ensure proper positioning */
+.contact-heading {
+    font-size: 1.5em;
+    margin: 15px 0;
+    text-align: center;
+    position: relative;
 }
 
-.container label {
-    display: block;
-    margin-bottom: 8px; /* Adjust margin */
-    font-size: 1em; /* Adjust size as needed */
+.company-info p {
+    margin: 10px 0;
 }
 
-.container input[type="text"],
-.container input[type="email"],
-.container textarea {
-    width: calc(100% - 22px); /* Adjust for input border */
-    padding: 8px; /* Reduce padding */
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 8px; /* Adjust margin */
-    box-sizing: border-box; /* Include padding and border in width calculation */
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
-.container button {
-    width: 100%;
-    padding: 8px; /* Reduce padding */
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.employee {
+    text-align: center;
 }
 
-.container button:hover {
-    background-color: #0056b3;
+.employee img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 8px; /* Space between elements */
-    width: 100%; /* Full width */
+    gap: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+form fieldset legend {
+    margin-bottom: 10px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
