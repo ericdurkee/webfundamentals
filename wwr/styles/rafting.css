@@ -93,34 +93,34 @@ article{
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f4f4f4; /* Adjust as needed */
+    background-color: #f4f4f4; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative; /* Ensure relative positioning */
+    position: relative; 
 }
 
 .container h1, .contact-heading {
-    font-size: 2em; /* Adjust size as needed */
-    margin: 20px 0; /* Adjust margin as needed */
-    text-align: center; /* Center the heading */
-    position: relative; /* Ensure proper positioning */
+    font-size: 2em; 
+    margin: 20px 0; 
+    text-align: center; 
+    position: relative; 
 }
 
 .container label {
     display: block;
     margin-bottom: 10px;
-    font-size: 1em; /* Adjust size as needed */
+    font-size: 1em; 
 }
 
 .container input[type="text"],
 .container input[type="email"],
 .container textarea {
-    width: calc(100% - 22px); /* Adjust for input border */
+    width: calc(100% - 22px); 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
-    box-sizing: border-box; /* Include padding and border in width calculation */
+    box-sizing: border-box; 
 }
 
 .container button {
@@ -141,8 +141,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Space between elements */
-    width: 100%; /* Full width */
+    gap: 10px;
+    width: 100%; 
 }
 
   
