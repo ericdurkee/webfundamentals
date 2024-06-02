@@ -1,45 +1,40 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
+    max-width: 400px; /* Reduce the max-width */
+    margin: 20px auto;
+    padding: 15px; /* Reduce the padding */
+    background-color: #f4f4f4; /* Adjust as needed */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure relative positioning */
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.container h1, .contact-heading {
+    font-size: 1.5em; /* Reduce font size */
+    margin: 15px 0; /* Adjust margin */
+    text-align: center; /* Center the heading */
+    position: relative; /* Ensure proper positioning */
 }
 
-form {
-    display: grid;
-    grid-gap: 10px;
+.container label {
+    display: block;
+    margin-bottom: 8px; /* Adjust margin */
+    font-size: 1em; /* Adjust size as needed */
 }
 
-label {
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: calc(100% - 22px); /* Adjust for input border */
+    padding: 8px; /* Reduce padding */
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 8px; /* Adjust margin */
+    box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
-button {
+.container button {
     width: 100%;
-    padding: 10px;
+    padding: 8px; /* Reduce padding */
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -47,7 +42,14 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.container button:hover {
     background-color: #0056b3;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; /* Space between elements */
+    width: 100%; /* Full width */
+}
